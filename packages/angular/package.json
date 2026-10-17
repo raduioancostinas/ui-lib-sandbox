@@ -1,0 +1,19 @@
+{
+  "name": "@orange/ds-angular",
+  "version": "0.1.0",
+  "description": "Sandbox stub of the angular wrappers package",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "mkdir -p dist && echo 'export const ok = true;' > dist/index.js",
+    "test": "echo angular-test-ok"
+  },
+  "dependencies": {
+    "@orange/ds-core": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "http://localhost:4873/"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@4.0.1/schema.json",
+  "baseBranch": "master",
+  "access": "restricted",
+  "changelog": "@changesets/cli/changelog",
+  "commit": false,
+  "ignore": [],
+  "fixed": [["@orange/ds-core", "@orange/ds-angular"]],
+  "linked": [],
+  "updateInternalDependencies": "patch"
+}

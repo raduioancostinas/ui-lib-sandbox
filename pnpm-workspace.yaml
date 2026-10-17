@@ -1,0 +1,7 @@
+packages:
+  - 'packages/*'
+  - 'apps/*'
+
+registries:
+  https://registry.invalid/:
+    scopes: ['@orange']
