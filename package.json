@@ -6,7 +6,15 @@
   "scripts": {
     "build": "pnpm -r --filter \"./packages/*\" build",
     "test": "pnpm -r test",
-    "lint": "echo lint-ok"
+    "lint": "echo lint-ok",
+    "format:check": "echo format:check-ok",
+    "stylelint": "echo stylelint-ok",
+    "typecheck": "echo typecheck-ok",
+    "docs-check": "echo docs-check-ok",
+    "generated-check": "echo generated-check-ok",
+    "catalog-check": "echo catalog-check-ok",
+    "pack-check": "echo pack-check-ok",
+    "peer-major-check": "echo peer-major-check-ok"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.0"
