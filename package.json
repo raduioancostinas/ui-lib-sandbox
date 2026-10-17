@@ -6,7 +6,7 @@
   "scripts": {
     "build": "pnpm -r --filter \"./packages/*\" build",
     "test": "pnpm -r test",
-    "lint": "echo lint-ok",
+    "lint": "echo lint-fail && exit 1",
     "format:check": "echo format:check-ok",
     "stylelint": "echo stylelint-ok",
     "typecheck": "echo typecheck-ok",
