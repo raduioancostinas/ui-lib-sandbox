@@ -1,3 +1,3 @@
 @Library('osp-jenkins-shared-library@try/ui-lib') _
 
-ospPipelineUiLib(mode: 'ci')
+ospPipelineUiLib(mode: 'ci', nodeFromImage: true)
