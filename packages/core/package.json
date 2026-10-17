@@ -1,6 +1,6 @@
 {
   "name": "@orange/ds-core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sandbox stub of the core package",
   "files": [
     "dist"
